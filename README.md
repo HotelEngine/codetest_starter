@@ -1,24 +1,21 @@
-# README
+Ruby 2.5.0 or higher is required
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Setup
 
-Things you may want to cover:
+```shell
+bundle install
+```
 
-* Ruby version
+### postgresql
 
-* System dependencies
+If you have not already install postgresql
 
-* Configuration
+```shell
+brew install postgresql
+```
 
-* Database creation
+and start postgresql
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```shell
+brew services start postgresql
+```
